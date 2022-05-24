@@ -1,5 +1,21 @@
-﻿End of the Line
-===============
+# Visual Studio 2022 Update
+
+This fork works for Visual Studio 2022.
+
+- Increased the VS version from 17 to 18
+- Migrated from packages.config to PackageReference
+- Updated the .Net version to 4.7.2
+- Configured all necessary nuget references
+
+I made no real code changes, just reworked everything for 2022 and it appears to be working.
+
+You can find an **EndOfTheLine.vsix** in the Builds directory.
+
+Huge thanks to the original authors listed below.
+
+Enjoy!
+
+# End of the Line
 
 _End of the Line_ is a Visual Studio extension that shows end of line markers
 in text editor allowing users to differentiate between CR LF and LF line
